@@ -10,5 +10,4 @@ spring:
           uri: https://github.com/AkulaApoorva/olx-config.git
           default-label: main
           username: AkulaApoorva
-          password: Github@961
           clone-on-start: true
