@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configuration-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AkulaApoorva/olx-config.git
+          default-label: main
+          username: AkulaApoorva
+          password: Github@961
+          clone-on-start: true
